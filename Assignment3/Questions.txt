@@ -1,0 +1,166 @@
+Question 1 :
+
+
+A mobile shop wants to store information about mobile phones.
+
+Create a class called Mobile with the following attributes:
+
+Brand
+Model
+Price
+Create two objects of the class and display their details using print statements.
+
+Example output format:
+
+
+
+Brand: Apple
+
+Model: iPhone 14
+
+Price: 250000
+
+
+
+Question 2 :
+
+
+A bank system needs to manage customer accounts.
+
+Create a class called BankAccount with the following:
+
+Attributes:
+
+account_holder
+balance
+Methods:
+
+deposit(amount) → adds money to balance
+withdraw(amount) → subtracts money from balance
+show_balance() → displays current balance
+Create an object and perform one deposit and one withdrawal, then display the final balance.
+
+
+
+Question 3 :
+
+
+An online learning platform wants to store course information.
+
+Create a class called Course that contains:
+
+Constructor parameters:
+
+course_name
+instructor_name
+students_enrolled
+Create a method:
+
+
+
+show_course_info()
+
+
+
+This method should display all course details.
+
+Create three course objects and display their information.
+
+
+
+Question 4 :
+
+
+A company management system wants to manage employees.
+
+Create a parent class called Employee with:
+
+Attributes:
+
+name
+salary
+Method:
+
+
+
+show_details()
+
+
+
+Then create a child class called Developer that inherits from Employee and adds:
+
+programming_language
+Create a method:
+
+
+
+show_language()
+
+
+
+Create an object of the Developer class and display all details.
+
+
+
+Question 5 :
+
+
+A food delivery application supports multiple restaurants.
+
+Create a base class called:
+
+
+
+Restaurant
+
+
+
+with a method:
+
+
+
+prepare_food()
+
+
+
+Create three child classes that override this method:
+
+PizzaRestaurant
+BurgerRestaurant
+ChineseRestaurant
+Each class should print a different food preparation message.
+
+Example:
+
+
+
+Preparing Pizza
+
+Preparing Burger
+
+Preparing Noodles
+
+
+
+Create objects of all classes and call the prepare_food() method.
+
+Bonus Question (Optional – Advanced Logic)
+
+
+Question6
+An online shopping system wants to manage a customer's cart.
+
+Create a class called:
+
+
+
+ShoppingCart
+
+
+
+The class should include methods:
+
+add_item(name, price)
+remove_item(name)
+show_total()
+The cart should store multiple items and calculate the total price
