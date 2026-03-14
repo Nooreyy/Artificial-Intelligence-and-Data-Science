@@ -1,0 +1,86 @@
+Q1. Even or Odd Checker
+
+Write a program that takes a number from user and prints whether it is even or odd. 
+Q2. Positive, Negative or Zero
+
+Take a number from user and check:
+
+If number > 0 -> Positive
+If number < 0 -> Negative
+Else -> Zero
+Q3. Print Loop  
+Write a program to print numbers from 1 to 10 using:
+a) for loop
+b) while loop
+Q4. Multiplication Table
+
+Take a number from user and print its multiplication table from 1 to 10.
+
+ (Concept: loop + arithmetic)
+
+Q5. Password Checker
+
+Ask user to enter password.
+
+If password equals "python123" -> print "Access Granted"
+
+Else -> print "Access Denied"
+
+Q6. Count Vowels in a String
+
+Take a string from user.
+
+Count how many vowels (a, e, i, o, u) are in it.
+
+
+(Concept: loop + membership operator in)
+
+Q7. Sum of Even Numbers
+
+Write a program to calculate the sum of all even numbers between 1 and 50.
+
+
+(Concept: loop + condition + accumulator)  
+
+Q8. Login System (Using Logical Operators)
+
+Ask user for:
+Username
+Password
+Correct values:
+username = "admin"
+password = "1234"
+If both are correct -> Login Successful
+
+Else -> Invalid Credentials
+
+
+
+
+
+
+(Concept: logical operator and)
+
+Q9. Number Guessing Game
+
+Program should:
+Store a number (e.g., 7)
+Ask user to guess
+If guess is correct -> print "Correct"
+Else -> print "Wrong"
+(Concept: if-else + comparison)
+
+Q10. Mini Calculator Using Loop
+
+Create a calculator that:
+Takes two numbers
+Takes operator (+, -, *, /)
+Prints result
+Repeats until user enters "exit"
+ (Concept: loops + condition + operators)
+
+
+Note: Make sure to complete before the deadline. 
+Submit the colab notebook 
+Make sure to keep colab notebook public so that i can view
+How to make Public:  share -> general access -> anyone can view
