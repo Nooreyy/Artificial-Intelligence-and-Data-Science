@@ -1,0 +1,47 @@
+Create a list of your favorite fruits. Add one more fruit using append, then insert another fruit at the second position using insert(). Finally, remove the last fruit from the list. Print the list after each step.
+
+
+
+
+Create a tuple with 5 numbers. Try to change the first number by converting the tuple into a list and back to tuple. Print both the original and modified tuple.
+
+
+
+
+Create a set of 5 numbers with some duplicates. Add a new number to the set, remove an existing number using discard(), and check if a specific number exists in the set. Print the set at each step.
+
+
+
+
+Create a list of 6 random numbers. Sort the list in ascending and descending order. Then, combine it with another list [10, 20, 30] using both + and extend(). Print all outputs.
+
+
+
+Create a dictionary for a student with keys: name, age, grade. Update the age, add a new key city, and then print all keys and values separately.
+
+
+
+
+Create two sets, one with numbers [1, 2, 3, 4] and the other [3, 4, 5, 6]. Perform both union() and update() operations and explain the difference in comments.
+
+
+
+Create a dictionary storing 2 students' data. Each student has name, age, marks (marks can be a list of 3 subjects). Write code to print each student’s name and average marks.
+
+
+
+
+
+You are designing a mini library system.
+Use a dictionary to store books. Key = book ID, Value = another dictionary with keys: title, author, available (True/False).
+Add 3 books to the system.
+Borrow one book (mark available=False).
+Return one book (mark available=True).
+Print the status of all books.
+Use a set to store borrowed_user_ids to make sure a user doesn’t borrow the same book twice.
+
+
+
+Try to use operations exactly like in your notes (append, pop, insert, union, update, keys, values)
+Write comments explaining each step – makes your code more readable and helps you understand better
+Start with beginner Qs first and then go step by step
