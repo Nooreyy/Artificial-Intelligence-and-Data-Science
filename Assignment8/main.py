@@ -1,11 +1,3 @@
-# =========================================
-# STARTUP SUCCESS SCORE PREDICTOR
-# Multiple Linear Regression Project
-# =========================================
-
-# Install first:
-# pip install pandas numpy scikit-learn matplotlib seaborn
-
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
@@ -13,9 +5,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_absolute_error, r2_score
 import matplotlib.pyplot as plt
 
-# =========================================
 # STEP 1: CREATE SAMPLE DATASET
-# =========================================
 
 data = {
     'Funding_Amount': [50, 80, 120, 200, 300, 500, 100, 150, 400, 600],
@@ -31,9 +21,7 @@ df = pd.DataFrame(data)
 print("\nDataset:\n")
 print(df)
 
-# =========================================
 # STEP 2: DEFINE INPUTS AND OUTPUT
-# =========================================
 
 X = df[[
     'Funding_Amount',
@@ -45,36 +33,25 @@ X = df[[
 
 y = df['Success_Score']
 
-# =========================================
 # STEP 3: TRAIN TEST SPLIT
-# =========================================
-
 X_train, X_test, y_train, y_test = train_test_split(
     X, y,
     test_size=0.2,
     random_state=42
 )
 
-# =========================================
 # STEP 4: TRAIN MODEL
-# =========================================
-
 model = LinearRegression()
 model.fit(X_train, y_train)
 
-# =========================================
 # STEP 5: MAKE PREDICTIONS
-# =========================================
-
 y_pred = model.predict(X_test)
 
 print("\nPredicted Values:\n")
 print(y_pred)
 
-# =========================================
-# STEP 6: MODEL EVALUATION
-# =========================================
 
+# STEP 6: MODEL EVALUATION
 mae = mean_absolute_error(y_test, y_pred)
 r2 = r2_score(y_test, y_pred)
 
@@ -82,9 +59,7 @@ print("\nModel Evaluation")
 print("Mean Absolute Error:", mae)
 print("R2 Score:", r2)
 
-# =========================================
 # STEP 7: USER INPUT PREDICTION
-# =========================================
 
 print("\n===== ENTER STARTUP DETAILS =====")
 
@@ -106,10 +81,8 @@ prediction = model.predict(new_data)
 
 print("\nPredicted Startup Success Score:", round(prediction[0], 2))
 
-# =========================================
-# STEP 8: VISUALIZATION
-# =========================================
 
+# STEP 8: VISUALIZATION
 plt.figure(figsize=(6,5))
 
 plt.scatter(y_test, y_pred)
